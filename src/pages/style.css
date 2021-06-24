@@ -1,0 +1,24 @@
+.MuiButton-contained{
+    background-color:#fab719 !important;
+}
+.MuiButton-contained:hover{
+    background-color:#247dd0 !important;
+}
+
+.MuiFab-primary{
+    background-color:#fab719 !important;
+}
+.MuiFab-primary:hover{
+    background-color:#247dd0 !important;
+}
+
+@media only screen and (orientation:landscape){
+
+    #cont_escalable {  
+          -webkit-transform: rotate(0deg) !important;
+          -moz-transform: rotate(0deg) !important;
+          -o-transform: rotate(0deg) !important;
+          -ms-transform: rotate(0deg) !important;
+          transform: rotate(0deg) !important;
+         }
+ }
