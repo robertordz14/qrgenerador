@@ -7,7 +7,7 @@ import './style.css';
 function Home() {
 
     return (
-        <div>
+        <div className="mapa">
 
             <Typography style={{margin:30}} variant="h2">
             Enrútate QR Code

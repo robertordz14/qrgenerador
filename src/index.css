@@ -11,13 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-@media only screen and (orientation:landscape){
-
-  #cont_escalable {  
-        -webkit-transform: rotate(0deg) !important;
-        -moz-transform: rotate(0deg) !important;
-        -o-transform: rotate(0deg) !important;
-        -ms-transform: rotate(0deg) !important;
-        transform: rotate(0deg) !important;
-       }
-}
