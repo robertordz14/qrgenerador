@@ -13,12 +13,52 @@
 }
 
 .generador {
-    text-align: center !important;
-    align-content: center;
+    align-content: center !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 #descarga > div {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-left: 10px;
+    align-content: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ciudad{
+	background-image: url('../src/assets/img/ciudad.png');
+	background-repeat: repeat-x;
+	background-position: 0px 100%;
+	position: absolute; 
+	bottom: 0%;
+	width: 100%;
+	height: 20vh !important;	
+	animation-name: ciudad;
+	animation-duration: 30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+.camionAnimated2{ 
+	width: 75px; 
+	height: 42px;
+	position: absolute;
+	bottom: 2%;
+	left: 50%;
+	text-align: center;
+}
+  .camionAnimated2 .marco{ 
+    background-image: url('../src/assets/img/enrutateCamionLateralCh.png');
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+  }
+@keyframes ciudad{
+	from{ background-position: 0 100%; }
+	to{ background-position: 100% 100%; }
 }
