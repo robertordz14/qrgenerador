@@ -27,17 +27,17 @@ function App() {
         <div className="generador">
             <h3>Generador de QR Enrútate</h3>
             <div style={{marginTop:30}}>
-                <TextField onChange={handleChange} style={{width:320}}
+                <TextField onChange={handleChange} style={{width:240}}
                 value={qr} label="Liga de la parada" size="small" variant="outlined"  
                 />
             </div>
-            <div>
+            <div className="qrGene">
                 {
                     qr ?
                     <QRcode 
                         id="qrEnrutate"
                         value={qr} 
-                        size={420}
+                        size={320}
                         includeMargin={true}
                     /> :
                     <p>No existen datos para generar QR</p>
@@ -49,7 +49,7 @@ function App() {
                     <Grid container>
                     
                         <Grid item xs={2}>
-                        <Fab onClick={descargarQR} style={{marginLeft:10}} color="primary">
+                        <Fab onClick={descargarQR} style={{marginLeft:10}} className="buttonDow" color="primary">
                             <GetApp/>
                         </Fab>
                         </Grid>
